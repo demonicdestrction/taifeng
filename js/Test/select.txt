@@ -1,0 +1,8 @@
+const s1='SELECT TOP 2 * FROM windname'
+const s2= 'SELECT CNname FROM TaiFen'
+SELECT [Number], [CNName], [ENName]
+FROM windname
+WHERE
+    [Number] LIKE '%2021%' OR
+    [CNName] LIKE '%2021%' OR
+    [ENName] LIKE '%2021%';

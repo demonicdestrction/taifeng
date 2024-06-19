@@ -1,0 +1,256 @@
+#mapCon {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+#draggable {
+             position: absolute;
+             width: 100px;
+             height: 100px;
+             background-color: red;
+             cursor: move;
+}
+#header {
+    ext-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    font-size: 0rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu, sans-serif !important;
+    box-sizing: border-box;
+    display: block;
+    border: 0px !important;
+    color: #EEE;
+    position: relative;
+    background-color: #333;
+    width: 100%;
+       }
+
+.header-misc {
+    position: initial;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.container{
+	background-color: #A9B5F6;
+	width: 100%;
+}
+#primary-menu-trigger,
+#page-menu-trigger {
+    display: -ms-flex;
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 0.875rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+.applyContainer {
+    display: none;
+    width: 240px;
+    height: 130px;
+    position: absolute;
+    z-index: 1000;
+    top: 110px;
+    left: 30px;
+    box-shadow: 0px 0px 10px #757770;
+    font-size: 13px;
+}
+.input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.menu-item:hover .clickable {  
+    /* color: #1ABC9C;	 */
+    font-size: 12px;
+	letter-spacing: 0.05em;
+	/* background-color: #F9F9F9; */
+	/* background-color:blue; */
+	/* text-indent: 5px; */
+}
+.menu-item:hover >.clickable  {  
+    color: #1ABC9C;	
+    font-size: 0.75rem;
+	background-color: #F9F9F9;
+	/* background-color:blue; */
+	text-indent: 5px;
+}
+.sub-menu-container.dark .menu-item:hover > .clickable {  
+	background-color: #F9F9F9;
+    padding-left: 12px;
+    color: #1ABC9C;
+}
+tr:hover {
+    cursor: pointer;
+    background-color:#1ABC9C; /* 浅灰色背景 */
+    color: #333; /* 字体颜色为深灰色 */
+}
+.clickable{
+    cursor : pointer;
+	-webkit-tap-highlight-color: transparent;
+    list-style: none;
+    text-decoration: none !important;
+    display: block;
+    line-height: 22px;
+    color: #444;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+	padding: 0px 5px;
+    /* padding: 39px 15px; */
+    transition: margin .4s ease, padding .4s ease;
+	padding-left: 15px;
+	
+}
+/* .clickable1{
+	    -webkit-tap-highlight-color: transparent;
+    list-style: none;
+    visibility: hidden;
+    pointer-events: none;
+    text-decoration: none !important;
+    display: block;
+    line-height: 22px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 0.75rem;
+    color: #666;
+    letter-spacing: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 15px;
+    font-weight: 700;
+    border: 0;
+    transition: all .2s ease-in-out;
+} */
+#main{
+    display: block;
+    position: static;
+    /*z-index: 998;*/
+    /*top: 280px;*/
+    /*left: 30px;*/
+    /*width: 280px;*/
+    height:100%;
+    /*bottom: 0px;*/
+}
+#main1{
+    display: block;
+    position: static;
+    /*z-index: 998;*/
+    /*top: 280px;*/
+    /*left: 30px;*/
+    /*width: 280px;*/
+    height:90%;
+    top:10px;
+    bottom: 10px;
+}
+.tfDiv{display: block;}
+.tuliCoverLayer{position: absolute; z-index: 998; top: 280px;left: 30px;width: 240px; height: 160px; opacity: 0.5; background-color: #E0C9C9; }
+.tuliDiv{position: absolute; top: 600px; left: 0px; z-index: 999; }
+.tuliHeader{position: absolute; z-index: 1000; left: 30px; background-color: #E0C9C9; height: 30px; width: 88px; opacity: 0.8; text-indent: 11px; line-height: 30px; font-size: 15px;}
+.tuliHeader:hover{cursor:pointer;}
+.closeDivTF{width: 152px; height: 28px; position: absolute; z-index: 1000; left: 118px; opacity: 0.8; background-color: #D9D8D7;}
+.tuliContent{width: 240px; height: 130px; position: absolute; z-index: 1000; top: 30px; left: 30px;  font-size: 13px;  box-shadow: 0px 0px 10px #757770;}
+.tuliContent ul{height: 132px; margin: 0px; padding: 0 0 0px 20px;}
+.tuliContent ul li{list-style: none; background: url('../Libs/images/taifeng/Wind01.png') no-repeat; float: left; width: 70px; margin: 20px 10px 0 0; padding-left: 20px;}
+.closeImgTF{width: 25px; height: 28px; position: absolute; left: 125px; background-image: url("../Libs/images/Close.png");}
+.closeImgTF:hover{cursor:pointer;}
+.closeDivTF{width: 152px; height: 28px; position: absolute; z-index: 1000; left: 118px; opacity: 0.8; background-color: #D9D8D7;}
+.closeImgTF{width: 25px; height: 28px; position: absolute; left: 125px; background-image: url("../Libs/images/Close.png");}
+.closeImgTF:hover{cursor:pointer;}
+
+.tfRightDiv{display:none; position: absolute; right: 2px; height: 800px; width: 350px; z-index: 1000; border: thin solid #959095; top: 110px; box-shadow: 0px 0px 10px #5A6A81;}
+.tfHeader{height: 33px; background-color: #DFDFDF; text-indent: 10px; line-height: 33px;  border: 1px solid #E0C9C9;}
+.txt1{height: 33px; background-color: #DFDFDF; text-indent: 10px; line-height: 33px; border: 1px solid #E0C9C9;}
+
+.tfRightDiv table{border: 0; border-collapse: collapse; width: 100%;}
+.tfRightDiv table tr td{text-align: center;}
+.tfljDetailedTrInfo.a{background-color: #7FCEFF;}
+.tfljDetailedTrInfo.b{background-color: #B3E1FF;}
+.c{background-color: white;}
+.choiceDiv{height: 120px; background: #F4F4F4 none repeat scroll 0% 0%;}
+
+.resDiv{background: #F4F4F4 none repeat scroll 0% 0%; height: 140px; overflow: auto;}
+.tuDiv{background: #F4F4F4 none repeat scroll 0% 0%; height: 200px; }
+
+.tfljContent{ height: 140px;}
+.tftjxzContent{overflow: auto; height: 120px;}
+/*.size{font-size: 30px;}*/
+thead {
+    background-color: #7FCEFF !important; /* 使用 !important 可以增加优先级，但通常不推荐，因为它会降低代码的可维护性 */
+}
+#txt2 {
+    pointer-events: auto;
+    user-select: auto;
+}
+.topright {
+    position: fixed;
+    top: 200px;  /* 根据需要调整 */
+    right: -10px;
+    hight: 140px;
+    width: 140px;
+    cursor: move;
+}
+.topright:hover{
+    cursor:pointer;
+}
+.right{
+    position: fixed;
+    top: 120px;  /* 根据需要调整 */
+    right: 0px;
+    hight: 40px;
+    width: 40px;
+    cursor: move;
+}
+.right:hover{
+    cursor:pointer;
+}
