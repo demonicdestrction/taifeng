@@ -53,12 +53,12 @@ express，truf库等
 
 ##### 2. 台风路径
 
-![image-20240619144313740](images\github\image-20240619144313740.png)
+![image-20240619144313740](images/github/image-20240619144313740.png)
 
 ##### 3. 实时台风（有bug）
 
-![image-20240619144408649](images\github\image-20240619144408649.png)
+![image-20240619144408649](images/github/image-20240619144408649.png)
 
 ##### 4.缓冲区分析等
 
-![image-20240619144450355](images\github\image-20240619144450355.png)
+![image-20240619144450355](images/github/image-20240619144450355.png)
