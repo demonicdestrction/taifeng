@@ -49,7 +49,7 @@ express，truf库等
 
 ##### 1. 台风查询
 
-![image-20240619144216249](images\github\image-20240619144216249.png)
+![image-20240619144216249](images/github/image-20240619144216249.png)
 
 ##### 2. 台风路径
 
